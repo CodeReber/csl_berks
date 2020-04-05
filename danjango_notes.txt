@@ -1,0 +1,47 @@
+How to start a project
+ 	506  mkdir djangostock
+  	507  cd djangostock/
+  	508  pip3 freeze
+  	509  pip3 install virtualenv
+  	510  python3 -m venv venv
+	519  python3 -m ensurepip
+	557  source venv/bin/activate	
+  	559  pip3 install django
+	deactivate
+	pip3 install django==2.2.3
+	pip3 freeze
+	django-admin.py startproject stocks
+	cd stocks/
+	python3 manage.py runserver
+	python3 manage.py makemigrations
+	python3 manage.py migrate
+	python3 manage.py createsuperuser
+Create App
+Cd into startpoject folder
+Python3 manage.py startapp csl_berks_app
+
+Add App to settings
+
+Create files/folders in app
+Urls.py
+Include in urls to others urls.py
+Views.py
+Forms.py
+Mkdir templates
+Home.html
+
+Add def request to VIEWs from home.html
+
+
+
+Setup Admin
+Create files/folders
+Template folder
+	
+Git init
+Git add .
+Git commit -am "test"
+Git push
+
+Django Layout MVC
+Add new page: templates add html page, copy html, update urls.py, update views.py(functions), update base.html(navBar)
